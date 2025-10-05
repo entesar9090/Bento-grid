@@ -1,0 +1,477 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root{
+        --Purple100: hsl(254, 88%, 90%);
+
+        --Purple500: hsl(256, 67%, 59%);
+
+        --Yellow100: hsl(31, 66%, 93%);
+
+        --Yellow500: hsl(39, 100%, 71%);
+
+}
+
+body{
+
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    
+    
+}
+
+/* desktop 1440px*/
+
+.contain{
+    
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue;
+    margin: auto;
+    max-width: 520px;
+    
+    
+    
+}
+
+.row1{
+    height: 90%;;
+    width: 100%;
+
+
+    
+    
+
+
+    
+}
+.row1 .colR1-1{
+    
+    font-size: x-large;
+    text-align: center;
+    color: aliceblue;
+    background-color: var(--Purple500);
+    padding: 15px;;
+    width:90%;
+    margin: auto;
+    
+    border-radius: 10px;;
+    
+    
+
+}
+
+
+
+
+span{
+    color:var(--Yellow500);
+    font-size:45px;
+}
+
+
+.row2 {
+    
+    font-size: 12px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    
+
+    width:96%;
+    margin: auto;
+    
+   margin-block-start: 15px;;
+   font-weight: 500;
+
+
+}
+
+.row2 .col{
+    width:40%;
+    height: 215px;;
+    background-color:white;
+    padding: 12px;
+
+    border-radius: 10px;
+    
+    overflow: hidden;
+
+
+}
+
+.piccol{
+    width: 295px;
+    
+    
+    
+    
+    
+    
+
+}
+
+.piccol2{
+
+    width: 190px;
+    display: block;
+    margin: auto;
+
+    
+
+    
+    
+    
+    
+    
+}
+
+
+
+.row2 .col2 {
+    width: 40%;
+    background-color: var(--Yellow500);
+    padding: 12px;
+    height: 215px;
+    
+    border-radius: 10px;;
+    
+    overflow:hidden;
+
+
+    
+}
+
+
+.col3{
+    
+    background-color:var(--Purple100);
+     width: 100%;;
+     margin-top: -870px;
+     margin-left: -180px;;
+    
+     
+    
+     height: 553px;
+     padding:10px;
+     
+     border-radius: 10px;
+     font-size:small;
+     overflow: hidden;
+     
+    
+}
+
+aside{
+
+    width: 18%;
+    
+    float:right;
+    
+}
+
+
+.col3 p{
+    font-size: large;
+    margin: 10px;
+    font-weight: 500;
+
+}
+.col3 h1{
+    margin-left: 30px;;
+}
+.piccol3{
+    width:230px;
+    margin:auto ;
+    margin-left: -20px;;
+    margin-right: -26px;
+}
+.down
+{
+    width: 32%;
+    padding: 12px;
+    background-color: var(--Purple500);
+    display: flex;
+    
+    color: aliceblue;
+    
+    padding-left: 55px;;
+    margin: auto;
+    margin-top: -270px;
+    margin-left: 730px;
+
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.down .text{
+    margin:25px 40px;
+    margin-right: 10px;;
+}
+.piccol3-1{
+    width: 396px;
+    height: 260px;;
+    margin-left: 10px;;
+}
+.coll{
+    background-color:white;
+    
+    width:15%;
+    
+    padding: 10px;
+    margin: auto;
+    margin-left:460px;
+    margin-top:-225px;
+    
+    border-radius: 10px;;
+    height: 200px;
+    font-weight: 500;
+
+    
+}
+
+strong{
+    font-size: 40px;
+}
+
+.PE{
+    width: 160px;
+    
+}
+
+.CRE{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+.row33 .col3-2 h1{
+    margin-bottom: 45px;
+}
+
+
+.row33{
+    width: 70%;
+    display: block;
+    font-size: 16.5px;;
+    margin-top: -820px;;
+    margin-inline-start:170px;
+    
+
+    
+
+  
+}
+
+.col3-1 {
+
+    width: 17.5%;
+    padding: 40px;
+    height: 300px;
+    border-radius: 10px;
+    
+
+}
+
+.col3-2{
+    width: 20%;
+    padding:29px;
+    border-radius: 10px;;
+    
+}
+
+.col3-1 strong{
+    color: var(--Purple500);
+    font-size: xx-large;
+
+}
+
+.col3-2{
+    background-color: var(--Yellow500);
+    
+}
+
+.col3-1{
+    margin-block-end: 20px;;
+    background-color: var(--Yellow100);
+    
+}
+
+.col3-2 h1{
+    margin-top: -10px;
+}
+
+/*for mobile*/
+@media (max-width:600px )
+{
+    body{
+        background-color: azure;
+        width: 100%;
+    }
+    .contain{
+        width: 100%;
+    
+      
+        max-height: min-content;
+        
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        margin: auto ;
+
+
+        
+        
+        
+    }
+    .colR1-1{
+        width: 100%;
+    }
+    .piccol{
+        width: 250px;
+    }
+    .row1{
+        display: block;      
+        width: 75%;
+        margin: auto ;
+        
+        
+    }
+    .row2{
+        display: block;
+        width: 100%;
+        
+    }
+    .row2 .col{
+    overflow: visible;
+    width: 92%;
+    max-height: min-content;
+    margin-block-end: 10px;;
+    }
+
+    .row2 .col2{
+        display: block;
+        width: 92%;
+        max-height:200px;
+    }
+
+    .piccol{
+        width: 290px;;
+    }
+
+    .piccol2{
+        display: inline;
+        width: 230px;;
+    }
+    
+
+    aside{
+        width:100%;
+        margin: auto;
+        max-height: min-content;
+        
+        
+
+    
+    
+    }
+    .col3{
+        width: 70%;;
+        overflow: visible;
+       margin: auto;
+    
+    
+        max-height: min-content;
+        
+
+        
+        
+        
+    } 
+
+    .col3 p{
+        text-align: center;
+    }
+
+        .piccol3-1{
+            width: 260px;
+            margin: auto;
+            display: block;
+            margin-block-end: 30px;;
+
+    }
+    .down{
+        display: block;
+        margin: auto;
+        margin-block-start: 540px;
+        padding: 10px;
+        width: 70%;
+        
+        
+        text-align: center;
+        font-size:16px;
+        
+    
+    }
+    .down .text{
+        margin:  0 20px;
+         
+    }
+
+    .piccol3{
+        margin: auto;
+        margin-top: 10px;
+        
+        display: block;
+    
+
+    }
+    .coll{
+        width: 70%;
+        padding: 15px;
+        display: block;
+        
+        margin: 10px auto;
+        
+    }
+
+    .row33{
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+        
+
+    
+    }
+    .col3-1{
+        background-color: var(--Yellow100);
+        margin: auto;
+        padding: 29px;
+        height: 230px;
+        margin-block-end: 20px;;
+        width: 66%;
+    }
+    .col3-2{
+        background-color: var(--Yellow500);
+        margin:10px auto;;
+        
+        width: 66%;;
+        height: 340px;
+        margin-block-end: 20px;;
+
+    }
+
+    .at{
+        display: none;
+    }
+    .CRE{
+       display:inline;
+       width:200px;
+    }
+    
+}
+
+
+
+
